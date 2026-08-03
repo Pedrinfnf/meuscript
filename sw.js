@@ -1,5 +1,5 @@
 const CACHE = 'frameflow-v1';
-const SHELL = ['/', '/index.html', '/styles.css', '/config.js', '/foundation.js', '/dashboard.js', '/data.js', '/editor-state.js', '/editor-sheets.js', '/editor-view.js', '/editor-model.js', '/events-ui.js', '/events-pointer.js', '/manifest.webmanifest'];
+const SHELL = ['/', '/index.html', '/styles.css', '/config.js', '/foundation.js', '/dashboard.js', '/data.js', '/editor-state.js', '/editor-sheets.js', '/editor-view.js', '/position-fix.js', '/editor-model.js', '/events-ui.js', '/events-pointer.js', '/manifest.webmanifest'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL))));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))));
 self.addEventListener('fetch', event => {
