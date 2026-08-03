@@ -1,0 +1,18 @@
+{
+  "name": "FrameFlow Mobile",
+  "short_name": "FrameFlow",
+  "description": "Editor visual mobile-first para layouts, interfaces e protótipos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0f13",
+  "theme_color": "#111216",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='46' fill='%237c5cff'/%3E%3Cpath d='M54 44h54a30 30 0 010 60H54V44zm0 60h42a30 30 0 010 60H54v-60z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
