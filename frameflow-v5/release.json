@@ -1,0 +1,35 @@
+{
+  "name": "FrameFlow Studio V5 — Figma parity phase 1",
+  "version": "5.0.0",
+  "schema": 5,
+  "status": "tested-local-release",
+  "primaryWorkflow": "general-design-image-export",
+  "zip": {
+    "filename": "frameflow-studio-v5.zip",
+    "bytes": 134580,
+    "files": 44,
+    "sha256": "bc381eb4613434a74e1020e4cdfffba29523ebf934710117e42d4fb0357f382b"
+  },
+  "mcp": {
+    "version": "5.0.0",
+    "tools": 38,
+    "resources": 4,
+    "prompts": 5,
+    "durableSessions": true,
+    "durableTransactions": true,
+    "humanApproval": true,
+    "rollback": true
+  },
+  "tests": {
+    "syntax": "passed",
+    "model": "passed",
+    "export": "passed",
+    "deepFeatures": "passed",
+    "collaboration": "passed",
+    "apiMcp": "passed",
+    "visibleActions": "118/118 handled",
+    "browserDomSmoke": "passed",
+    "zipIntegrity": "passed"
+  },
+  "honesty": "This release is not literal full Figma parity. It is the first measurable V5 parity phase."
+}
