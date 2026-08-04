@@ -1,0 +1,36 @@
+{
+  "status": "production",
+  "version": "5.0.0",
+  "schema": 5,
+  "url": "https://frameflow-mobile.vercel.app",
+  "deploymentId": "dpl_D69SMxzjfcxyPYLPE5d4CeikvK7X",
+  "vercelProjectId": "prj_mk68gfmO2KlvfaCSsWe19YBAypyn",
+  "archiveCommit": "c599d8bbee3a548a5de6f3f6794e7bd3dcde9190",
+  "bootstrapCommit": "62b637bce2c4497f8544ee8ff8c1a7ec6b6a41c3",
+  "archiveSha256": "084aea6f1ed0626c18145fe4a616ea2580f80d5f1215fc3c80f7641f30dff9b8",
+  "zipSha256": "bc381eb4613434a74e1020e4cdfffba29523ebf934710117e42d4fb0357f382b",
+  "files": 44,
+  "mcp": {
+    "endpoint": "https://frameflow-mobile.vercel.app/api/mcp",
+    "protocol": "2025-11-25",
+    "tools": 38,
+    "resources": 4,
+    "prompts": 5,
+    "jsonRpcGate": "passed"
+  },
+  "supabase": {
+    "projectId": "pdplarzhiztjzvcitcsz",
+    "tables": 6,
+    "rls": true,
+    "policiesVerified": true,
+    "durableTransactions": true
+  },
+  "validation": {
+    "http": "passed",
+    "integrity": "passed",
+    "health": "passed",
+    "staticAssets": "passed",
+    "mcp": "passed"
+  },
+  "publishedAt": "2026-08-04T09:55:00Z"
+}
